@@ -25,7 +25,7 @@
     });
   });
   formHandler.addSubmitHandler(function(data) {
-	console.log("my data" + data);
+    console.log("my data" + data);
     myTruck.createOrder.call(myTruck, data);
     checkList.addRow.call(checkList, data);
   });
